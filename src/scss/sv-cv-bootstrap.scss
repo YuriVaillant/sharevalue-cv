@@ -1,13 +1,38 @@
 
 
 
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
 
-//Font Overrides
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
 
 
 //Color Overrides
-$body-bg: #fff;
-$body-color: #eee;
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+$body-bg:                   $white;
+$body-color:                $gray-900;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                theme-color("primary");
+$link-decoration:           none;
+$link-hover-color:          darken($link-color, 15%);
+$link-hover-decoration:     underline;
 
 //import bootstrap default styling
 @import "node_modules/bootstrap/scss/bootstrap";
