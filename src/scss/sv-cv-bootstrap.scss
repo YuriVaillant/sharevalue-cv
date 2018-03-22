@@ -1,29 +1,34 @@
 
-
+//bootstrap overrides: For more options, go to _variables.scss in node_modules/bootstrap/scss 
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
+//Source Sans Pro from googleFonts
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600"
+
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif:      "Source Sans Pro", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace:       "Source Sans Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 
 
 //Color Overrides
-$primary:       $blue;
-$secondary:     $gray-600;
-$success:       $green;
+$primary:       "#f5a623";
+$secondary:     "#1ea0f4";
+$success:       "#1ef4a3";
 $info:          $cyan;
-$warning:       $yellow;
-$danger:        $red;
+$warning:       "#ffc575";
+$danger:        "#ff7575";
 $light:         $gray-100;
-$dark:          $gray-800;
+$dark:          "#4b5e6c";
 
-$body-bg:                   $white;
-$body-color:                $gray-900;
+$body-bg:                   "#fafbfd";
+$body-color:                "#fafbfd";
 
+$row-odd:		"#f6fafd";
+$row-even:		"#fff";
 
 // Links
 //
